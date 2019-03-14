@@ -10,6 +10,6 @@ app.use(express.static(__dirname+'/public'))
 app.get('/',function(req,res) {
     res.render('index')
 })
-app.listen(3000,function() {
+app.listen(process.env.PORT || 3000,function() {
     console.log('Portfolio has started to listen on post 3000')
 })
