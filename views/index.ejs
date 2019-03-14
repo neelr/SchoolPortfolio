@@ -2,8 +2,60 @@
 <html>
     <head>
         <title>Neels Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <script src="script.js"></script>
     </head>
     <body>
-        <h1>Hello</h1>
+        <div class="box">
+            <h1>Neel's Portfolio!</h1>
+            <h3>
+                <a href="" class="typewrite" data-period="2000" data-type='["I am Weird.","I am Creative.", "I am a Proud Boy Scout.","I Love Camping", "I like Choir", "I Love Design.", "I Love to Program.","I Love Computers","I Love Math","I am DIFFERENT."]'>
+                </a>
+            </h3>
+        </div>
+        <br>
+        <div class="box">
+            <h2>Who am I?</h2>
+            <p>I am a current middle-schooler at Windemere Ranch Middle School. I love Computer Science and love to see how things work. I enjoy programming as a pastime hobby. I love </p>
+        </div>
+        <br>
+        <div class="box">
+            <h2>Classes</h2>
+            <ul>
+                <li>Math</li>
+                <ul>
+                    <li>Algebra 1</li>
+                    <li>Geometry</li>
+                    <li>Algebra 2</li>
+                    <li>Pre-Calculus</li>
+                </ul>
+                <li>Computer Science</li>
+                <ul>
+                    <li>Middle School Computer Science</li>
+                </ul>
+            </ul>
+        </div>
+        <br>
+        <div class="box">
+            <h1>Contact Me</h1>
+            <form action="/contact" method="POST">
+                <label for="name">Name: </label>
+                <input type="text" name="name">
+                <hr>
+                <label for="email">Email: </label>
+                <input type="text" name="email">
+                <hr>
+                <label for="subject">Subject: </label>
+                <input type="text" name="subject">
+                <br>
+                <hr>
+                <p>Message:</p>
+                <textarea name="text" width="258" height="81" cols="25" rows="5">
+                </textarea>
+                <br><br>
+                <input type="submit">
+            </form>
+        </div>
     </body>
 </html>
