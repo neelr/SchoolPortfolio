@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Neel's Portfolio</title>
+        <link rel="icon" href="http://icons.iconarchive.com/icons/thehoth/seo/256/seo-web-code-icon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item">
+                <img src="http://icons.iconarchive.com/icons/thehoth/seo/256/seo-web-code-icon.png" alt="Neel's Portfolio" >
+                </a>
+                <span id="nav-toggle" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                </span>
+            </div>
+            <div id="navMenu" class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="/" class="navbar-item">
+                    Home
+                    </a>
+                    <a href="#" class="navbar-item is-active">
+                    Classes
+                    </a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                    Extracurriculars
+                    </a>
+            
+                    <div class="navbar-dropdown">
+                        <a href="#" class="navbar-item">
+                        Boy Scouts
+                        </a>
+                        <a href="#" class="navbar-item">
+                        Choir
+                        </a>
+                        <a href="#" class="navbar-item">
+                        Science Fair
+                        </a>
+                        <a href="#" class="navbar-item">
+                        Track and Field
+                        </a>
+                    </div>
+                    </div>
+                    <a href="#" class="navbar-item">
+                        Contact Me
+                    </a>
+                </div>
+        </nav>
+        <section class="hero is-success">
+            <div class="hero-body">
+                <h1 class="title">
+                    My Classes
+                </h1>
+                <h2 class="subtitle">
+                    Classes I've taken throughout school!
+                </h2>
+            </div>
+            <div class="container">
+                <div style='color:gray;' class="list is-hoverable">
+                    <a href="#alg2" class="list-item">
+                        Algebra 2
+                    </a>
+                    <a href="#precalc" class="list-item">
+                        Precalculus
+                    </a>
+                    <a href="#Calc" class="list-item">
+                        Calculus BC
+                    </a>
+                    <a href="#C++" class="list-item">
+                        C++
+                    </a>
+                    <a href="#C" class="list-item">
+                        C
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="alg2" class="section">
+            <div class ='columns'>
+                <div class="column">
+                    <div class="box is-primary">
+                        <h1 class="title">Algebra 2</h1>
+                        <p class="column-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quibusdam rem architecto, ipsum optio eum dolores soluta tempora libero facere cum voluptatibus officiis quos dolor aut sit esse aliquam doloribus.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="precalc" class="section">
+            <div class ='columns'>
+                <div class="column">
+                    <div class="box is-primary">
+                        <h1 class="title">Precalculus</h1>
+                        <p class="column-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error fugit consequuntur nihil iure ullam minus dignissimos earum voluptas nesciunt, quibusdam aliquid! Quisquam, voluptas. Illum nemo a quia sit, amet nam.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Calc" class="section">
+            <div class ='columns'>
+                <div class="column">
+                    <div class="box is-primary">
+                        <h1 class="title">Calculus BC</h1>
+                        <p class="column-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, sunt id. Aliquam perspiciatis doloribus inventore autem neque. Cumque, aspernatur exercitationem. Autem maxime dolores veritatis est suscipit praesentium debitis maiores tempore.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="C++" class="section">
+            <div class ='columns'>
+                <div class="column">
+                    <div class="box is-primary">
+                        <h1 class="title">C++</h1>
+                        <p class="column-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati iste veniam quos deleniti libero deserunt officia hic ducimus! Nobis maiores, alias debitis quibusdam eius voluptate optio quidem qui repellendus!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="C" class="section">
+            <div class ='columns'>
+                <div class="column">
+                    <div class="box is-primary">
+                        <h1 class="title">C</h1>
+                        <p class="column-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati iste veniam quos deleniti libero deserunt officia hic ducimus! Nobis maiores, alias debitis quibusdam eius voluptate optio quidem qui repellendus!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script>
+                (function() {
+                var burger = document.querySelector('#nav-toggle');
+                var menu = document.querySelector('.navbar-menu');
+                burger.addEventListener('click', function() {
+                    burger.classList.toggle('is-active');
+                    menu.classList.toggle('is-active');
+                });
+            })();</script>
+    </body>
+</html>
